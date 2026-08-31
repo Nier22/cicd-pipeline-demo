@@ -1,1 +1,5 @@
 .venv
+app/__init__.py
+app/__pycache__/__init__.cpython-314.pyc
+app/__pycache__/main.cpython-314.pyc
+tests/__pycache__/test_main.cpython-314-pytest-9.1.1.pyc

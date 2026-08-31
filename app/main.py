@@ -10,7 +10,7 @@ def homepage():
 def health():
     return jsonify({"status": "OK"})
 
-@app.route("/add/<int(a):a>/<int(b):b>")
+@app.route("/add/<int(signed=True):a>/<int(signed=True):b>")
 def add(a: int, b: int):
     return jsonify({"result": a + b})
 
