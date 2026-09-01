@@ -4,7 +4,7 @@ def test_homepage():
     with app.test_client() as client:
         response = client.get("/")
         assert response.status_code == 200
-        assert response.get_json() == {"message": "Welcome to the CI/CD demo API!"}
+        assert response.get_json() == {"message": "Welcome to the CI/CD demo API"}
 
 def test_health():
     with app.test_client() as client:
