@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-    return jsonify({"message": "Welcome to the CI/CD demo API!"})
+    return jsonify({"message": "Welcome to the CI/CD demo API"})
 
 @app.route("/health")
 def health():
